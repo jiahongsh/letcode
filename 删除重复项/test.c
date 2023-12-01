@@ -1,4 +1,4 @@
-﻿//给你一个 非严格递增排列 的数组 nums ，请你 原地 删除重复出现的元素，使每个元素 只出现一次 ，返回删除后数组的新长度。元素的 相对顺序 应该保持 一致 。然后返回 nums 中唯一元素的个数。
+//给你一个 非严格递增排列 的数组 nums ，请你 原地 删除重复出现的元素，使每个元素 只出现一次 ，返回删除后数组的新长度。元素的 相对顺序 应该保持 一致 。然后返回 nums 中唯一元素的个数。
 //
 //考虑 nums 的唯一元素的数量为 k ，你需要做以下事情确保你的题解可以被通过：
 //
@@ -23,15 +23,16 @@
 
 //力扣第36题
 int removeDuplicates(int* nums, int numsSize) {
-    int i = 0, k = 0;
-    for (i = 1; i < numsSize; ++i)
-    {
-        if (nums[i] != nums[k])
-        {
-            k += 1;
-            nums[k] = nums[i];
-        }
-    }
-    return k + 1;
+   int removeDuplicates(int* nums, int numsSize) {
+   int slow=0,fast=0;
+   for( fast=0;fast<numsSize;fast++){
+       if(nums[fast]!=nums[slow]){
+           slow++;
+           nums[slow]=nums[fast];
+       }
+
+   }
+   return slow+1;
+}
 
 }
