@@ -1,4 +1,4 @@
-﻿给你两个按 /*非递减顺序 排列的整数数组 nums1 和 nums2，另有两个整数 m 和 n ，分别表示 nums1 和 nums2 中的元素数目。
+给你两个按 /*非递减顺序 排列的整数数组 nums1 和 nums2，另有两个整数 m 和 n ，分别表示 nums1 和 nums2 中的元素数目。
 
 请你 合并 nums2 到 nums1 中，使合并后的数组同样按 非递减顺序 排列。
 
@@ -38,20 +38,23 @@ nums2.length == n
 
 //进阶：你可以设计实现一个时间复杂度为 O(m + n) *///的算法解决此问题吗？
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n) {
-    int count = m + n - 1;
-    int i = 0;
-    m--;
-    n--;
-    for (i = 0; i < count; i++) {
-        if (nums1[m] < nums2[n]) {
-            nums1[count] = nums2[n];
-            count--;
-            n--;
-        }
-        else {
-            nums1[count] = nums1[m];
-            count--;
-            m--;
-        }
+   int count = m + n - 1;
+int i = 0;
+m = m - 1;
+n = n - 1;
+while (m >= 0 && n >= 0) {
+    if (nums1[m] < nums2[n]) {
+        nums1[count] = nums2[n--];
+
     }
+    else {
+        nums1[count] = nums1[m--];
+
+    }
+    count--;
+}
+while (n >= 0) {
+    nums1[count--] = nums2[n--];
+
+}
 }
