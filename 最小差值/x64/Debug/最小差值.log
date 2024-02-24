@@ -1,0 +1,4 @@
+﻿  test.c
+F:\c语言\力扣刷题\最小差值\最小差值\test.c(12,33): warning C4090: “函数”: 不同的“const”限定符
+F:\c语言\力扣刷题\最小差值\最小差值\test.c(12,30): warning C4113: “int (__cdecl *)(void *,void *)”和“_CoreCrtNonSecureSearchSortCompareFunction”的参数列表不同
+  最小差值.vcxproj -> F:\c语言\力扣刷题\最小差值\x64\Debug\最小差值.exe
