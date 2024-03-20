@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "找出数组的最大公约数", "找出数组的最大公约数\找出数组的最大公约数.vcxproj", "{FBEF8D1E-0120-494D-9054-5B1B19D9FDFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBEF8D1E-0120-494D-9054-5B1B19D9FDFA}.Debug|x64.ActiveCfg = Debug|x64
+		{FBEF8D1E-0120-494D-9054-5B1B19D9FDFA}.Debug|x64.Build.0 = Debug|x64
+		{FBEF8D1E-0120-494D-9054-5B1B19D9FDFA}.Debug|x86.ActiveCfg = Debug|Win32
+		{FBEF8D1E-0120-494D-9054-5B1B19D9FDFA}.Debug|x86.Build.0 = Debug|Win32
+		{FBEF8D1E-0120-494D-9054-5B1B19D9FDFA}.Release|x64.ActiveCfg = Release|x64
+		{FBEF8D1E-0120-494D-9054-5B1B19D9FDFA}.Release|x64.Build.0 = Release|x64
+		{FBEF8D1E-0120-494D-9054-5B1B19D9FDFA}.Release|x86.ActiveCfg = Release|Win32
+		{FBEF8D1E-0120-494D-9054-5B1B19D9FDFA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {302B9BFC-D616-4308-815F-28338D4E3CA5}
+	EndGlobalSection
+EndGlobal
