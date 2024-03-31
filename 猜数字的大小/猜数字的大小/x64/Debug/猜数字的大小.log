@@ -1,0 +1,5 @@
+﻿  test.c
+D:\code\force-deduction-brush-question\猜数字的大小\猜数字的大小\test.c(10,13): warning C4013: “guess”未定义；假设外部返回 int
+test.obj : error LNK2019: 无法解析的外部符号 guess，函数 guessNumber 中引用了该符号
+MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 main，函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中引用了该符号
+D:\code\force-deduction-brush-question\猜数字的大小\x64\Debug\猜数字的大小.exe : fatal error LNK1120: 2 个无法解析的外部命令
